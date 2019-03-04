@@ -1,7 +1,7 @@
 # ML_Semi_project
 
 
-파이참과 github연동은 다음 홈페이지에서 설명한데로 따라하면 됩니다.
+파이참과 github연동은 다음 홈페이지에서 설명한데로 따라하면 됩니다.\
 https://lsjsj92.tistory.com/364
 
 꼭 잊지 말아야 할 것은 project interpreter 설정입니다. 
