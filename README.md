@@ -9,5 +9,5 @@ https://lsjsj92.tistory.com/364
 clone을 해준 이후, 
 1. File -> setting 클릭
 2. 왼쪽 항목에서 Project:ML_Semi_project -> Project Interpreter 클릭
-3. 오른쪽에 Project Interpreter : 에서 클릭후 tf_cpu밑에 있는 python을 클릭\n
+3. 오른쪽에 Project Interpreter : 에서 클릭후 tf_cpu밑에 있는 python을 클릭 \
 (만약 없다면 밑에 show all..을 누르면 나옵니다.)
