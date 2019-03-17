@@ -7,3 +7,9 @@ Dataset - Skin Cancer MNIST : HAM10000 from Kaggle(https://www.kaggle.com/kmader
 
 # Tensorflow-gpu설치방법
 pdf파일로 올려져 있으니 참고 하시면 됩니다.
+
+
+# 폴더별 설명
+HS - 폐렴데이터 분류 \
+HS_MNIST_Image_version - 0~9까지 필기체 인식 실제 이미지 버전 \
+HS_skin_cancer - 피부암 7가지 분류 
