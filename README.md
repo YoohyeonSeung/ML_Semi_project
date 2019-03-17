@@ -2,7 +2,7 @@
 
 Dataset - Skin Cancer MNIST : HAM10000 from Kaggle(https://www.kaggle.com/kmader/skin-cancer-mnist-ham10000) \
 분류 기술 - CNN \
-사용한 도구 및 버전 - python(3.6.8), tensorflow-gpu(1.5), keras(2.2.4) \
+사용한 도구 및 버전 - python(3.6.8), tensorflow-gpu(1.5), keras(2.2.4) 
 
 
 # Tensorflow-gpu설치방법
