@@ -1,8 +1,8 @@
 # ML_Semi_project
 
-Dataset - Skin Cancer MNIST : HAM10000 from Kaggle(https://www.kaggle.com/kmader/skin-cancer-mnist-ham10000)
-분류 기술 - CNN
-사용한 도구 및 버전 - python(3.6.8), tensorflow-gpu(1.5), keras(2.2.4)
+Dataset - Skin Cancer MNIST : HAM10000 from Kaggle(https://www.kaggle.com/kmader/skin-cancer-mnist-ham10000) \n
+분류 기술 - CNN \n
+사용한 도구 및 버전 - python(3.6.8), tensorflow-gpu(1.5), keras(2.2.4) \n
 
 
 # Tensorflow-gpu설치방법
