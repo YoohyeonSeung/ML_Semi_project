@@ -2,6 +2,7 @@ import tensorflow as tf
 import matplotlib.pyplot as plt
 import numpy as np
 import os, os.path
+import keras.optimizers as op
 
 from PIL import Image
 from keras.models import Sequential
@@ -62,7 +63,7 @@ train_datagen = ImageDataGenerator(rescale=1./255)
 train_generator = train_datagen.flow_from_directory(
     'C:/workspaces/ML_Semi_project/HS/data/resized_train',
     target_size=(1280, 1280),
-    batch_size = 100,
+    batch_size = 10,
     class_mode = 'categorical'
 )
 test_datagen = ImageDataGenerator(rescale=1./255)
@@ -90,13 +91,13 @@ model.add(Dropout(0.5))
 model.add(Dense(128, activation='relu'))
 model.add(Dense(2, activation='sigmoid'))
 
-model.compile(loss=losses.mean_squared_error, optimizer='adam', metrics=['accuracy'])
+model.compile(loss=losses.categorical_crossentropy, optimizer=op.Adam(1e-4),  metrics=['accuracy'])
 
 
 model.fit_generator(
         train_generator,
         steps_per_epoch=10,
-        epochs=1)
+        epochs=70)
 
 
 print("-- Evaluate --")
@@ -110,4 +111,4 @@ np.set_printoptions(formatter={'float': lambda x: "{0:0.3f}".format(x)})
 print(test_generator.class_indices)
 print(output)
 
-print(model.summary())
+# print(model.summary())
