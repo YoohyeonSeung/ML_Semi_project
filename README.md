@@ -1,22 +1,15 @@
 # ML_Semi_project
 
-
-Pycharm과 Github연동은 다음 홈페이지에서 설명한데로 따라하면 됩니다.\
-https://lsjsj92.tistory.com/364
-
-꼭 잊지 말아야 할 것은 project interpreter 설정입니다. 
-
-clone을 해준 이후, 
-1. File -> setting 클릭
-2. 왼쪽 항목에서 Project:ML_Semi_project -> Project Interpreter 클릭
-3. 오른쪽에 Project Interpreter : 에서 클릭후 tf_cpu밑에 있는 python을 클릭 \
-(만약 없다면 밑에 show all..을 누르면 나옵니다.)
-
-
-
-
-
+Dataset - Skin Cancer MNIST : HAM10000 from Kaggle(https://www.kaggle.com/kmader/skin-cancer-mnist-ham10000) \
+분류 기술 - CNN \
+사용한 도구 및 버전 - python(3.6.8), tensorflow-gpu(1.5), keras(2.2.4) 
 
 
 # Tensorflow-gpu설치방법
 pdf파일로 올려져 있으니 참고 하시면 됩니다.
+
+
+# 폴더별 설명
+HS - 폐렴데이터 분류 \
+HS_MNIST_Image_version - 0~9까지 필기체 인식 실제 이미지 버전 \
+HS_skin_cancer - 피부암 7가지 분류 
