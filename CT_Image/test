@@ -1,0 +1,9 @@
+import numpy as np
+
+import os
+
+
+path = "C:/workspaces/ML_Semi_project/CT_Image/dicom_dir/"
+
+for s in os.listdir(path):
+    print(s)

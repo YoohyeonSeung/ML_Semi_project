@@ -79,8 +79,7 @@ model.add(Conv2D(4, kernel_size=(9, 6),
 model.add(Conv2D(4, kernel_size=(9, 6),
                  strides=1,
                  kernel_initializer=kini.he_normal(seed=None),
-                 activation="relu",
-                 input_shape=(600, 450, 3))
+                 activation="relu")
           )
 model.add(MaxPooling2D(pool_size=(2, 2)))
 # 1st conv
